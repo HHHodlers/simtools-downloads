@@ -1,9 +1,17 @@
-# SimTools for Mac
+# SimTools for Mac and Windows
 
-Official SimTools desktop installers and update files.
+Official SimTools desktop installers and update files. Access to the app requires your existing SimTools account.
 
-**No staff release is available yet.** The first signed and notarized Mac installer will appear under [Releases](https://github.com/HHHodlers/simtools-downloads/releases).
+## Windows preview
 
-After installing the first supported release, the app will check for native updates automatically and offer a restart when an update is ready. Access to SimTools requires your existing SimTools account.
+[Download the Windows x64 test installer](https://github.com/HHHodlers/simtools-downloads/releases/tag/v0.1.4-windows-preview).
+
+This preview is unsigned and automatic updates are disabled. Windows may show an unrecognized-publisher warning. Test installation, sign-in, tray behavior and notifications before staff rollout.
+
+## Mac
+
+The signed universal Mac installer is being prepared. It is not available yet. Verified installers will appear under [Releases](https://github.com/HHHodlers/simtools-downloads/releases).
+
+Native auto-updates apply only to signed releases that explicitly enable them. The published web workspace is loaded on launch/reload.
 
 This repository hosts distribution files only. Application source is maintained separately.
