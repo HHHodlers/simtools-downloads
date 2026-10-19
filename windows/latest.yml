@@ -1,0 +1,11 @@
+{
+  "version": "0.1.7",
+  "files": [
+    {
+      "url": "https://github.com/HHHodlers/simtools-downloads/releases/download/v0.1.7-windows/SimTools-0.1.7-windows-x64.exe",
+      "size": 111591923,
+      "sha512": "9xA5u+60ohZngK2ccqFs7GtDtKiPpQ2Io8jH3ggtoxQIhkTn1tMaOZKNBr3QnHAxP1+qzOXxLCkF763cxhjqhg=="
+    }
+  ],
+  "simtoolsSignature": "Hv6s9lmH0XuTJZRgnzLt7dm5EyYZt7GYXK9jV0MEEPe4Z8jTLA9cHv31PZ4N4VIzWEG5KescKWXjj6wCozzZCQ=="
+}

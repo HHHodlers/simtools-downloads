@@ -4,18 +4,22 @@ Official SimTools desktop installers and update files. Access requires your exis
 
 ## Mac
 
-[Download SimTools for Mac](https://github.com/HHHodlers/simtools-downloads/releases/download/v0.1.4/SimTools-0.1.4-mac-universal.dmg) — Intel and Apple Silicon, macOS 13 or later.
+[Download the latest Mac release](https://github.com/HHHodlers/simtools-downloads/releases/latest) — Intel and Apple silicon, macOS 13 or later.
 
-Open the DMG and drag SimTools into Applications. Quit the older preview before opening this version. The first signed release requires a one-time manual installation; future published Mac releases download automatically and offer Restart to Update or Later. This release is signed with Developer ID and notarized by Apple.
+Open the DMG and drag SimTools into Applications. Old unsigned previews require a one-time manual installation. Signed staff versions receive published Mac updates automatically and offer Restart to Update or Later. Mac releases are signed with Developer ID and notarized by Apple.
 
-## Windows preview
+## Windows internal release
 
-[Download the Windows x64 test installer](https://github.com/HHHodlers/simtools-downloads/releases/tag/v0.1.4-windows-preview).
+[Download SimTools 0.1.7 for Windows x64](https://github.com/HHHodlers/simtools-downloads/releases/download/v0.1.7-windows/SimTools-0.1.7-windows-x64.exe).
 
-This preview is unsigned and automatic updates are disabled. Windows may show an unrecognized-publisher warning. Test installation, sign-in, tray behavior and notifications before staff rollout.
+Install this version manually once over an existing Windows preview. From 0.1.7, future Windows releases download automatically and offer Restart to Update or Later. Save unfinished work before restarting.
+
+Windows updates use a separate feed authenticated with a public Ed25519 key bundled in the app; downloaded installer bytes must match the signed SHA-512 checksum. The initial installer has no Windows Authenticode certificate and may show an unknown-publisher warning. Company security policies may block it.
 
 ## Keeping current
 
-The published web workspace at https://sm.sim8.io loads on launch/reload. Native desktop releases have their own version and update separately. Mac updates check 30 seconds after startup and every four hours; Check for Updates is also available in the SimTools menu.
+The published web workspace at https://sm.sim8.io loads on launch/reload. Native releases have their own version and update separately.
 
-This repository hosts distribution files only. Application source is maintained separately.
+Updater-enabled apps check 30 seconds after startup and every four hours. Use Check for Updates in the SimTools menu to check sooner. Downloads happen in the background; installation requires choosing Restart to Update.
+
+Mac and Windows feeds are independent. This repository hosts distribution files only. Application source is maintained separately.
